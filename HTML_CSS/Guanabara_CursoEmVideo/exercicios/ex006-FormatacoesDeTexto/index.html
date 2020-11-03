@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formatações de Texto em HTML 5</title>
+    <link
+      rel="shortcut icon"
+      href="public/images/favicon_texto.png"
+      type="image/x-icon"
+    />
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      code {
+        color: crimson;
+        background-color: #f1f1f1;
+        padding: 0px 3px;
+        font-size: 1.4em;
+      }
+
+      mark {
+        background-color: lightgreen;
+        padding: 0px 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Principais Formatações de Texto</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>
+      Nesta frase <b>temos um termo em negrito</b> usando a tag
+      <code>&lt;b&gt;</code> (não há semântica).
+    </p>
+    <p>
+      Aqui temos um <strong>termo em destaque</strong> usando a tag
+      <code>&lt;strong&gt;</code> (com semântica).
+    </p>
+    <h2>Itálico / Ênfase</h2>
+    <p>
+      Agora temos um <i>termo em itálico</i> usando a tag
+      <code>&lt;i&gt;</code> (não há semântica).
+    </p>
+    <p>
+      E de forma similar, temos um <em>termo em ênfase</em>usando a tag
+      <code>&lt;em&gt;</code> (com semâmtica).
+    </p>
+    <h2>Texto marcado</h2>
+    <p>
+      Podemos criar também um <mark>texto marcado</mark> usando a tag
+      <code>&lt;mark&gt;</code>.
+    </p>
+    <h2>Texto grande e pequeno</h2>
+    <p>
+      Temos aqui <big>um texto grande</big> usando a tag
+      <code>&lt;big&gt;</code>.
+    </p>
+    <p>
+      E um <small>texto pequeno</small> usando a tag <code>&lt;small&gt;</code>.
+    </p>
+    <h2>Texto deletado</h2>
+    <p>
+      Podemos marcar <del>um texto como excluído</del>para indicar que ele deve
+      ser lido, mas não considerado. Para isso usamos a tag
+      <code>&lt;del&gt;</code>.
+    </p>
+    <h2>Texto inserido</h2>
+    <p>
+      Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e
+      indicar que ele foi adicionado depois. É implementado com o uso da tag
+      <code>&lt;ins&gt;</code>.
+    </p>
+    <p>
+      Também é possível <u>sublinhar o texto</u> com a tag
+      <code>&lt;u&gt;</code>, mas não há semântica.
+    </p>
+    <h2>Texto sobrescrito</h2>
+    <p>
+      Útil para inserir expressões como: x<sup>20</sup> + 3. O 20 está entre as
+      tags <code>&lt;sup&gt;20&lt;/sup&gt;</code>.
+    </p>
+    <h2>Texto Subscrito</h2>
+    <p>
+      É útil para inserir coisas do tipo: H<sub>2</sub>O. O número dois está
+      entre as tags: <code>&lt;sub&gt;2&lt;/sub&gt;</code>.
+    </p>
+  </body>
+</html>
